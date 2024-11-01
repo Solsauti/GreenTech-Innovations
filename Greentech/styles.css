@@ -1,0 +1,108 @@
+/* style.css */
+
+body {
+  font-family: Arial, Axial Black font;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Soft gray background */
+}
+
+h1, h2, h3 {
+  font-family: Arial Black, Gadget, sans-serif; /* Axial Black font */
+  color: Black;
+}
+
+
+body {
+  font-family: Arial, axial black;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, green,#339966);
+  color: black; /* Axial Black font color */
+}
+
+/* ... other CSS rules ... */
+
+
+header {  
+  background-color: #339966;  
+  color: white;  
+  padding: 20px;  
+  text-align: center;  
+} 
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: Black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #228B22; /* Darker green on hover */
+}
+
+section {
+  padding: 50px;
+}
+
+.hero {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+}
+
+.service-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+}
+
+.service-card img {
+  max-width: 100%;
+  height: auto;
+
+}
+
+#about {  
+    padding: 20px;  
+    margin: 0;  
+    background-image: url('nature-background.jpg'); /* Replace with an actual eco-friendly image */  
+    background-size: cover;  
+    background-position: center;  
+    height: 400px;  
+    display: block;  
+    justify-content: center;  
+    align-items: center;  
+    color: black;  
+    text-align: centre; 
+}
+
+footer {
+  background-color: #339966;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Random color generator for background colors */
+.random-color {
+  background-color: #<?php echo dechex(rand(0, 255)) . dechex(rand(0, 255)) . dechex(rand(0, 255)); ?>;
+}
